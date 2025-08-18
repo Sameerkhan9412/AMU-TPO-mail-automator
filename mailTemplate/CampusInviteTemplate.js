@@ -25,11 +25,11 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
   .header {
     text-align: center;
     margin-bottom: 20px;
-    border-bottom: 2px solid #4caf50;
+    border-bottom: 2px solid #004d99;
     padding-bottom: 10px;
   }
   .header h1 {
-    color: #4caf50;
+    color: #004d99;
     font-size: 26px;
     margin: 0;
   }
@@ -41,7 +41,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     margin-bottom: 15px;
   }
   .highlight {
-    color: #4caf50;
+    color: #004d99;
     font-weight: bold;
   }
   .cta-button {
@@ -51,7 +51,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
   .cta-button a {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #4caf50;
+    background-color: #007bff;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -59,7 +59,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     transition: background-color 0.3s;
   }
   .cta-button a:hover {
-    background-color: #4caf50;
+    background-color: #0056b3;
   }
   .list-section {
     margin-top: 20px;
@@ -74,7 +74,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     margin-bottom: 8px;
     padding: 10px 15px;
     border-radius: 4px;
-    border-left: 3px solid #4caf50;
+    border-left: 3px solid #004d99;
   }
   .footer {
     margin-top: 30px;
@@ -85,7 +85,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     font-size: 14px;
   }
   .contact-info a {
-    color: #4caf50;
+    color: #007bff;
     text-decoration: none;
   }
   .contact-info a:hover {
@@ -112,6 +112,9 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
 <div class="container">
   
   <div class="header">
+  <div style="text-align: center; margin-bottom: 20px;">
+    <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1755522251/Amu-logo_s4onyb.png" alt="Aligarh Muslim University Logo" style="max-width: 150px; height: auto;">
+</div>
     <h1>Campus Recruitment Drive Invitation</h1>
     <p>Aligarh Muslim University, Aligarh, U.P.</p>
   </div>
@@ -121,24 +124,25 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     
     <p>Dear <span class="highlight">${receiverName}</span>,</p>
 
-    <p>We are writing to you on behalf of the Department of Computer Science at Aligarh Muslim University to invite <span class="highlight">${companyName}</span> to our Campus Recruitment Drive for the 2025–26 graduating batch.</p>
+    <p>On behalf of the Department of Computer Science, Aligarh Muslim University, we are delighted to extend a warm invitation to <span class="highlight">${companyName}</span> to participate in our Campus Recruitment Drive for the graduating batch of 2025–26.</p>
 
-    <p>Our students are equipped with strong technical knowledge, problem-solving skills, and a motivated mindset. We believe they can be a great asset to your organization.</p>
+    <p>Our students are well-trained in computer science fundamentals, problem-solving, and modern technologies. With their dedication and enthusiasm, we are confident they will contribute positively to your esteemed organization.</p>
 
-    <p>For more information, please see our Placement Brochure below:</p>
+    <p>For a detailed overview, please find our Placement Brochure attached below:</p>
     
     <div class="cta-button">
-      <a href="https://api.amu.ac.in/storage//file/10077/useful-download/1755070514.pdf" target="_blank">View Placement Brochure</a>
+      <a href="https://drive.google.com/file/d/1Bk5h2RGOc1NWDYWlsKgrdyiaUglHQjkT/view?usp=sharing" target="_blank">View Placement Brochure</a>
     </div>
 
-    <p>To help us move forward, please share your interest along with:</p>
+    <p>We would be grateful if you could kindly share your interest along with the following details, so we may proceed with scheduling the drive:</p>
     <ul style="list-style-type: disc; padding-left: 25px;">
       <li><span class="highlight">Updated Job Description(s)</span></li>
       <li><span class="highlight">Eligibility Criteria</span></li>
       <li><span class="highlight">Preferred Dates for the Recruitment Process</span></li>
     </ul>
 
-    <p>We are eager to coordinate with your team and ensure a successful recruitment process. We look forward to building a long-term partnership with <span class="highlight">${companyName}</span>.</p>
+    <p>Your participation will not only provide valuable opportunities for our students but will also strengthen the industry–academia relationship with <span class="highlight">${companyName}</span>.</p>
+    <p>We sincerely hope for your positive response and look forward to collaborating with your team.</p>
 
     <p>Best regards,<br>
     <span class="highlight">TPO Team</span><br>
@@ -168,7 +172,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
       </ul>
     </div>
   </div>
-
+  <p><span class="highlight">The university is eager to coordinate and build a long-term partnership with ${companyName}.</span></p>
 </div>
 
 </body>

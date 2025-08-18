@@ -14,9 +14,8 @@ export default async function getCompanyInfo(req, res) {
     const emailPromises = companies.slice(1).map((company) =>
       mailSender(
         company.email,
-        `Recruitment Drive for ${company.Name} | Aligarh Muslim University`,
+        `Campus Recruitment Drive for ${company.Name} | Aligarh Muslim University`,
         campusInviteTemplate(company.Name, company.hr_name,company.email)
-        // "hello kaise ho"
       )
         .then(() => ({ email: company.email, status: "sent" }))
         .catch((err) => ({ email: company.email, status: "failed", error: err.message }))
