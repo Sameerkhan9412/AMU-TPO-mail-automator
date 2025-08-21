@@ -133,6 +133,9 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     <div class="cta-button">
       <a href="https://drive.google.com/file/d/1Bk5h2RGOc1NWDYWlsKgrdyiaUglHQjkT/view?usp=sharing" target="_blank">View Placement Brochure</a>
     </div>
+    <div class="cta-button">
+      <a href="https://drive.google.com/file/d/1QH-ljXNGAM6X1fVW0dANqGifO-kVlVEH/view?usp=sharing" target="_blank">Our Key Recruiter</a>
+    </div>
 
     <p>We would be grateful if you could kindly share your interest along with the following details, so we may proceed with scheduling the drive:</p>
     <ul style="list-style-type: disc; padding-left: 25px;">
@@ -149,6 +152,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     Department of Computer Science<br>
     Aligarh Muslim University<br>
     Email: <a href="mailto:tpo.cs@amu.ac.in">tpo.cs@amu.ac.in</a></p>
+    TPO Linkedin: <a href="https://www.linkedin.com/company/training-placement-cell-computer-science-dept-aligarh-muslim-university/" target="_blank">Linkedin Page</a>
   </div>
   
   <div class="footer">
