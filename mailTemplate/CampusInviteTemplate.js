@@ -120,13 +120,14 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
   </div>
 
   <div class="content">
-    <p>Greetings from the Training & Placement Department,</p>
-    
-    <p>Dear <span class="highlight">${receiverName}</span>,</p>
+  
+  <p>Dear <span class="highlight">${receiverName}</span>,</p>
+  <p>Greetings from the Department of Computer Science, Aligarh Muslim University (AMU).</p>
+  <p>We are pleased to invite your esteemed organization <span class="highlight">${companyName}</span> to participate in our on-campus placement drive for the graduating batch of 2026 (M.C.A and M.Sc. in Cybersecurity & Digital Forensics).
+  </p>
 
-    <p>On behalf of the Department of Computer Science, Aligarh Muslim University, we are delighted to extend a warm invitation to <span class="highlight">${companyName}</span> to participate in our Campus Recruitment Drive for the graduating batch of 2025–26.</p>
+    <p>Our students bring a strong foundation in Data Structures & Algorithms, Software Development, Web & Mobile Application Development, Cloud Computing, Cybersecurity, Digital Forensics, Artificial Intelligence, Machine Learning, and Database Management Systems. We are confident they can contribute meaningfully to your organization’s growth and innovation.</p>
 
-    <p>Our students are well-trained in computer science fundamentals, problem-solving, and modern technologies. With their dedication and enthusiasm, we are confident they will contribute positively to your esteemed organization.</p>
 
     <p>For a detailed overview, please find our Placement Brochure attached below:</p>
     
@@ -134,7 +135,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
       <a href="https://drive.google.com/file/d/1Bk5h2RGOc1NWDYWlsKgrdyiaUglHQjkT/view?usp=sharing" target="_blank">View Placement Brochure</a>
     </div>
     <div class="cta-button">
-      <a href="https://drive.google.com/file/d/1QH-ljXNGAM6X1fVW0dANqGifO-kVlVEH/view?usp=sharing" target="_blank">Our Key Recruiter</a>
+      <a href="https://drive.google.com/file/d/1QH-ljXNGAM6X1fVW0dANqGifO-kVlVEH/view?usp=sharing" target="_blank">List Of Our Key Recruiter</a>
     </div>
 
     <p>We would be grateful if you could kindly share your interest along with the following details, so we may proceed with scheduling the drive:</p>
@@ -159,20 +160,20 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     <div class="contact-info">
       <p><span class="highlight">Faculty Training & Placement Officers</span></p>
       <ul class="contact-list">
-        <li>Dr. Mohammad Nadeem – Training & Placement Officer | <a href="tel:+918750919969">+91 8750919969</a></li>
-        <li>Dr. Faisal Anwer – Deputy Training & Placement Officer | <a href="tel:+918171318692">+91 8171318692</a></li>
-        <li>Dr. Mohammad Sajid – Deputy Training & Placement Officer | <a href="tel:+919634622950">+91 9634622950</a></li>
+        <li>Dr. Mohammad Nadeem – Training & Placement Officer |+91 8750919969</li>
+        <li>Dr. Faisal Anwer – Deputy Training & Placement Officer | +91 8171318692</li>
+        <li>Dr. Mohammad Sajid – Deputy Training & Placement Officer | +91 9634622950</li>
       </ul>
     </div>
 
     <div class="contact-info" style="margin-top: 20px;">
       <p><span class="highlight">Student Placement Coordinators</span></p>
       <ul class="contact-list">
-        <li>Syed Bilal Ahmad | <a href="tel:+917542825540">+91 7542825540</a></li>
-        <li>Sameer | <a href="tel:+919412803911">+91 9412803911</a></li>
-        <li>Sonali Varshney | <a href="tel:+917533828772">+91 7533828772</a></li>
-        <li>Talibul Haque Khan | <a href="tel:+917000784235">+91 7000784235</a></li>
-        <li>Azizur Rahman | <a href="tel:+918795221403">+91 8795221403</a></li>
+        <li>Syed Bilal Ahmad | +91 7542825540</li>
+        <li>Sameer | +91 9412803911</li>
+        <li>Sonali Varshney | +91 7533828772</li>
+        <li>Talibul Haque Khan | +91 7000784235</li>
+        <li>Azizur Rahman | +91 8795221403</li>
       </ul>
     </div>
   </div>
