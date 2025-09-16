@@ -14,7 +14,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     padding: 20px;
   }
   .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     background: #ffffff;
     padding: 20px 30px;
@@ -44,22 +44,11 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     color: #004d99;
     font-weight: bold;
   }
-  .cta-button {
-    text-align: center;
-    margin: 25px 0;
+  .link-section {
+    margin-top: 25px;
   }
-  .cta-button a {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #007bff;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  .cta-button a:hover {
-    background-color: #0056b3;
+  .link-section p {
+    margin-bottom: 8px;
   }
   .list-section {
     margin-top: 20px;
@@ -73,8 +62,8 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
     background-color: #f9f9f9;
     margin-bottom: 8px;
     padding: 10px 15px;
-    border-radius: 4px;
     border-left: 3px solid #004d99;
+    border-radius: 4px;
   }
   .footer {
     margin-top: 30px;
@@ -112,48 +101,40 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
 <div class="container">
   
   <div class="header">
-  <div style="text-align: center; margin-bottom: 20px;">
-    <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1755522251/Amu-logo_s4onyb.png" alt="Aligarh Muslim University Logo" style="max-width: 150px; height: auto;">
-</div>
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1755522251/Amu-logo_s4onyb.png" alt="Aligarh Muslim University Logo" style="max-width: 100px; height: auto;">
+    </div>
     <h1>Campus Recruitment Drive Invitation</h1>
-    <p>Aligarh Muslim University, Aligarh, U.P.</p>
+    <p>Aligarh Muslim University, Department of Computer Science</p>
   </div>
 
   <div class="content">
   
-  <p>Dear <span class="highlight">${receiverName}</span>,</p>
-  <p>Greetings from the Department of Computer Science, Aligarh Muslim University (AMU).</p>
-  <p>We are pleased to invite your esteemed organization <span class="highlight">${companyName}</span> to participate in our on-campus placement drive for the graduating batch of 2026 (M.C.A and M.Sc. in Cybersecurity & Digital Forensics).
-  </p>
-
-    <p>Our students bring a strong foundation in Data Structures & Algorithms, Software Development, Web & Mobile Application Development, Cloud Computing, Cybersecurity, Digital Forensics, Artificial Intelligence, Machine Learning, and Database Management Systems. We are confident they can contribute meaningfully to your organization’s growth and innovation.</p>
-
-
-    <p>For a detailed overview, please find our Placement Brochure attached below:</p>
+    <p>Dear <span class="highlight">${receiverName}</span>,</p>
+    <p>Greetings from the Department of Computer Science, Aligarh Muslim University (AMU).</p>
+    <p>We are pleased to invite your esteemed organization <span class="highlight">${companyName}</span> to our campus placement drive for the graduating batch of 2026 from the M.C.A. and M.Sc. in Cybersecurity & Digital Forensics.</p>
     
-    <div class="cta-button">
-      <a href="https://drive.google.com/file/d/1Bk5h2RGOc1NWDYWlsKgrdyiaUglHQjkT/view?usp=sharing" target="_blank">View Placement Brochure</a>
-    </div>
-    <div class="cta-button">
-      <a href="https://drive.google.com/file/d/1QH-ljXNGAM6X1fVW0dANqGifO-kVlVEH/view?usp=sharing" target="_blank">List Of Our Key Recruiter</a>
-    </div>
-
+    <p>Our students have a strong foundation in high-demand skills, including (Software Development, AI/ML, Cloud Computing, and Cybersecurity), and are well-prepared to contribute to your organization's growth.</p>
+    
     <p>We would be grateful if you could kindly share your interest along with the following details, so we may proceed with scheduling the drive:</p>
-    <ul style="list-style-type: disc; padding-left: 25px;">
-      <li><span class="highlight">Updated Job Description(s)</span></li>
-      <li><span class="highlight">Eligibility Criteria</span></li>
-      <li><span class="highlight">Preferred Dates for the Recruitment Process</span></li>
-    </ul>
+     <ul style="list-style-type: disc; padding-left: 25px;">
+       <li><span class="highlight">Updated Job Description(s)</span></li>
+       <li><span class="highlight">Eligibility Criteria</span></li>
+       <li><span class="highlight">Preferred Dates for the Recruitment Process</span></li>
+     </ul>
+    
+     <p>We look forward to a successful collaboration and value the opportunity to strengthen our industry-academia partnership with your team.</p>
 
-    <p>Your participation will not only provide valuable opportunities for our students but will also strengthen the industry–academia relationship with <span class="highlight">${companyName}</span>.</p>
-    <p>We sincerely hope for your positive response and look forward to collaborating with your team.</p>
-
-    <p>Best regards,<br>
-    <span class="highlight">TPO Team</span><br>
+<div class="link-section">
+      <p>For a detailed overview, please find our Placement Brochure Attached Below: <a href="https://drive.google.com/file/d/1Bk5h2RGOc1NWDYWlsKgrdyiaUglHQjkT/view?usp=sharing" target="_blank">Placement Brochure</a></p>
+      <p>A list of our key recruiters is available here: <a href="https://drive.google.com/file/d/1QH-ljXNGAM6X1fVW0dANqGifO-kVlVEH/view?usp=sharing" target="_blank">List of Recruiters</a></p>
+    </div>
+    <p>Sincerely,</p>
+    <p><span class="highlight">TPO Team</span><br>
     Department of Computer Science<br>
     Aligarh Muslim University<br>
-    Email: <a href="mailto:tpo.cs@amu.ac.in">tpo.cs@amu.ac.in</a></p>
-    TPO Linkedin: <a href="https://www.linkedin.com/company/training-placement-cell-computer-science-dept-aligarh-muslim-university/" target="_blank">Linkedin Page</a>
+    Email: <a href="mailto:tpo.cs@amu.ac.in">tpo.cs@amu.ac.in</a><br>
+    TPO Linkedin: <a href="https://www.linkedin.com/company/training-placement-cell-computer-science-dept-aligarh-muslim-university/" target="_blank">Linkedin Page</a></p>
   </div>
   
   <div class="footer">
@@ -177,12 +158,11 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
       </ul>
     </div>
   </div>
-  <p><span class="highlight">The university is eager to coordinate and build a long-term partnership with ${companyName}.</span></p>
 </div>
 
 </body>
 </html>
-  `
+  `;
 };
 
 export default campusInviteTemplate;
