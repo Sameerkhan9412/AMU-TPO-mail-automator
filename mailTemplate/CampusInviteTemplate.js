@@ -105,14 +105,14 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
       <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1755522251/Amu-logo_s4onyb.png" alt="Aligarh Muslim University Logo" style="max-width: 100px; height: auto;">
     </div>
     <h1>Campus Recruitment Drive Invitation</h1>
-    <p>Aligarh Muslim University, Department of Computer Science</p>
+    <p>Department of Computer Science, Aligarh Muslim University</p>
   </div>
 
   <div class="content">
   
     <p>Dear <span class="highlight">${receiverName}</span>,</p>
-    <p>Greetings from the Department of Computer Science, Aligarh Muslim University (AMU).</p>
-    <p>We are pleased to invite your esteemed organization <span class="highlight">${companyName}</span> to our campus placement drive for the graduating batch of 2026 from the M.C.A. and M.Sc. in Cybersecurity & Digital Forensics.</p>
+    <p>Greetings from the Training and Placement Office, Department of Computer Science, Aligarh Muslim University (AMU).</p>
+    <p>We are pleased to invite your esteemed organization <span class="highlight">${companyName}</span> to our campus placement drive for the graduating batch of 2026 from the B.Tech, M.Tech, M.C.A. and M.Sc. in Cybersecurity & Digital Forensics.</p>
     
     <p>Our students have a strong foundation in high-demand skills, including (Software Development, AI/ML, Cloud Computing, and Cybersecurity), and are well-prepared to contribute to your organization's growth.</p>
     
