@@ -112,11 +112,19 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
   
     <p>Dear <span class="highlight">${receiverName}</span>,</p>
     <p>Greetings from the Training and Placement Office, Department of Computer Science, Aligarh Muslim University (AMU).</p>
-    <p>We are pleased to invite your esteemed organization <span class="highlight">${companyName}</span> to our campus placement drive for the graduating batch of 2026 from the B.Tech, M.Tech, M.C.A. and M.Sc. in Cybersecurity & Digital Forensics.</p>
+    <p>It has always been a privilege to have <span class="highlight">${companyName}</span> as one of our esteemed recruiters in the past. Your continued trust in our students has been a source of encouragement, and we would be delighted to welcome you once again to our campus for the <span class="highlight"> Placement Drive of 2025–26 (B.Tech , M.Tech , M.C.A. and M.Sc. in Cybersecurity & Digital Forensics).  </span> </p>
+     <ul style="list-style-type: disc; padding-left: 25px;">
+    <li>The Department of Computer Science, Aligarh Muslim University, established in 1971, is one of India's oldest and most pioneering institutions in the fields of Computer Science and Information Technology.</li>
+    <li>Aligarh Muslim University has been ranked as the 8th best Indian University as per the National Institutional Ranking Framework (NIRF) Ranking 2024.</li>
+    <li>Aligarh Muslim University has been accredited by NAAC with grade “A+”.</li>
+    <li>A.M.U. secures 3rd Position in the MDRA India Today University Rankings 2025.</li>
+    <li>A.M.U. secures 5th Position as Best Indian University in the US News & World Report 2025.</li>
+  </ul>
+  <p>Students of our institute, selected through a rigorous process, are among the best of the technical talent available. They are guided and trained through a constantly updated curriculum, by highly qualified and experienced faculty to meet the fast-changing needs of technology. Our laboratories are well equipped with modern, sophisticated instruments and machinery.</p>
+  <p>We would like you to know that <span class="highlight">we provide travelling assistance, stay, food facilities, and virtual support for smooth drives. </span> We are confident our students' performance will make you value this decision.</p>
+  
     
-    <p>Our students have a strong foundation in high-demand skills, including (Software Development, AI/ML, Cloud Computing, and Cybersecurity), and are well-prepared to contribute to your organization's growth.</p>
-    
-    <p>We would be grateful if you could kindly share your interest along with the following details, so we may proceed with scheduling the drive:</p>
+    <p>We will be extremely obliged if <span class="highlight"> ${companyName} </span> could be a part of our endeavor of making the untapped talents shine. We would be grateful if you could kindly share your interest along with the following details, so we may proceed with scheduling the drive:</p>
      <ul style="list-style-type: disc; padding-left: 25px;">
        <li><span class="highlight">Updated Job Description(s)</span></li>
        <li><span class="highlight">Eligibility Criteria</span></li>
@@ -130,7 +138,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
       <p>A list of our key recruiters is available here: <a href="https://drive.google.com/file/d/1QH-ljXNGAM6X1fVW0dANqGifO-kVlVEH/view?usp=sharing" target="_blank">List of Recruiters</a></p>
     </div>
     <p>Sincerely,</p>
-    <p><span class="highlight">TPO Team</span><br>
+    <p><span class="highlight">Training and Placement Office</span><br>
     Department of Computer Science<br>
     Aligarh Muslim University<br>
     Email: <a href="mailto:tpo.cs@amu.ac.in">tpo.cs@amu.ac.in</a><br>
