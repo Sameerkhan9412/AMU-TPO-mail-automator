@@ -112,7 +112,7 @@ const campusInviteTemplate = (companyName, receiverName, receiverEmail) => {
   
     <p>Dear <span class="highlight">${receiverName}</span>,</p>
     <p>Greetings from the Training and Placement Office, Department of Computer Science, Aligarh Muslim University (AMU).</p>
-    <p>It has always been a privilege to have <span class="highlight">${companyName}</span> as one of our esteemed recruiters in the past. Your continued trust in our students has been a source of encouragement, and we would be delighted to welcome you once again to our campus for the <span class="highlight"> Placement Drive of 2025–26 (B.Tech , M.Tech , M.C.A. and M.Sc. in Cybersecurity & Digital Forensics).  </span> </p>
+    <p>We are pleased to invite your esteemed organization  <span class="highlight">${companyName}</span> to our campus placement drive for the graduating batch of 2026 from the B.Tech, M.Tech, M.C.A. and M.Sc. in Cybersecurity & Digital Forensics. Our students are also <span class="highlight">immediate joiners</span> and are available to onboard at short notice to meet urgent hiring requirements. </p>
      <ul style="list-style-type: disc; padding-left: 25px;">
     <li>The Department of Computer Science, Aligarh Muslim University, established in 1971, is one of India's oldest and most pioneering institutions in the fields of Computer Science and Information Technology.</li>
     <li>Aligarh Muslim University has been ranked as the 8th best Indian University as per the National Institutional Ranking Framework (NIRF) Ranking 2024.</li>
